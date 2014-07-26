@@ -1,7 +1,7 @@
 {
   "name": "grunt-process-includes",
   "description": "Make use of JSON files to specify your included your JS and CSS files and use this plugin to process this file and automatically generate task setups for grunt-contrib-concat as well as generate an HTML file with the <script> or <link> include tags.",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "homepage": "https://github.com/francoishill/grunt-process-includes",
   "author": {
     "name": "Francois Hill",

@@ -1,4 +1,4 @@
-# grunt-process-includes v0.2.0
+# grunt-process-includes v0.2.1
 
 > Make use of JSON files to specify your included your JS and CSS files and use this plugin to process this file and automatically generate task setups for grunt-contrib-concat as well as generate an HTML file with the `<script>` or `<link>` include tags.
 
