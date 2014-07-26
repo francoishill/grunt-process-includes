@@ -32,8 +32,8 @@ processIncludes: {
 	generateExpandedJsonFile: {
 		options: {
 			task: 'generateExpandedJsonFile',
-			includesJsFile: INCLUDES_FILE_JS,
-			includesCssFile: INCLUDES_FILE_CSS,
+			includesJsFiles: [GOANGI_INCLUDES_FILE_JS, APP_INCLUDES_FILE_JS],
+			includesCssFiles: [GOANGI_INCLUDES_FILE_CSS, APP_INCLUDES_FILE_CSS],
 			includedJsSections: SECTIONS_TO_INCLUDE_JS,
 			includedCssSections: SECTIONS_TO_INCLUDE_CSS,
 			baseCoffeeDir: 'static_source/coffee',
@@ -80,7 +80,7 @@ processIncludes: {
 ```
 
 
-#### Example of `includesJsFile`
+#### Example of one of the `includesJsFiles`
 
 ```json
 {
