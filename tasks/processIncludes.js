@@ -278,6 +278,7 @@ module.exports = function (grunt) {
 							options: {
 								banner: '/*! <%= pkg.name %> <%= grunt.template.today("yyyy-mm-dd") %> */\n',
 								preserveComments: false,
+								nonull: true,
 							},
 							task_is_js: true,//Used by our task and not concat
 							task_is_css: false,//Used by our task and not concat
@@ -336,6 +337,7 @@ module.exports = function (grunt) {
 							options: {
 								banner: '/*! <%= pkg.name %> <%= grunt.template.today("yyyy-mm-dd") %> */\n',
 								preserveComments: false,
+								nonull: true,
 							},
 							task_is_js: false,//Used by our task and not concat
 							task_is_css: true,//Used by our task and not concat
